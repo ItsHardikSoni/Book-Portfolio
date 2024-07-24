@@ -29,6 +29,7 @@ body {
     min-height: 100vh;
     background: var(--bg-color);
     color: var(--text-color);
+    /* overflow: hidden; */
 }
 
 .wrapper {
@@ -376,7 +377,7 @@ body {
 
 .portfolio-box .img-box img {
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
     transition: .5s ease;
 }
 
@@ -488,4 +489,3 @@ body {
     transform: translateX(-50%) scale(1);
     top: -1.8rem;
 }
-
