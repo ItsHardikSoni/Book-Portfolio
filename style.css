@@ -272,7 +272,7 @@ body {
     font-size: 2rem;
     color: var(--second-text-color);
     display: inline-flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     transition: .5s;
 }
