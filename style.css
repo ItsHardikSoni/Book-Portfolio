@@ -26,7 +26,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 10vh;
     background: var(--bg-color);
     color: var(--text-color);
 /*     overflow: hidden; */
